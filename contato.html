@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato | WomanTech</title>
+  <meta name="description" content="Entre em contato com a WomanTech e faça parte do programa que está mudando a vida de mulheres na tecnologia." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <a href="index.html" class="logo">
+      <img src="imagens/logo.png" alt="WomanTech">
+      <span class="logo-text">WomanTech</span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="oficinas.html">Oficinas</a>
+      <a href="equipe.html">Equipe</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <button class="menu-btn" aria-label="Menu">☰</button>
+  </header>
+
+  <main>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div class="page-hero-content">
+        <div class="section-tag">Fale conosco</div>
+        <h1>Entre em <span class="gradient-text">Contato</span></h1>
+        <p>Tem dúvidas, quer participar ou fazer parceria? Estamos aqui. Manda uma mensagem — a gente responde!</p>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section class="section">
+      <div class="contact-grid">
+
+        <!-- INFO -->
+        <div class="contact-info reveal">
+          <h3>Vamos conversar?</h3>
+          <p>
+            Seja para saber mais sobre as oficinas, confirmar sua inscrição ou propor uma parceria —
+            fique à vontade para entrar em contato pelos nossos canais.
+          </p>
+
+          <div class="contact-items">
+            <a href="mailto:womantech.fci@gmail.com" class="contact-item">
+              <div class="ci-icon">✉️</div>
+              <div class="ci-text">
+                <strong>E-mail</strong>
+                <span>womantech.fci@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://instagram.com/womantech_fci" target="_blank" rel="noopener" class="contact-item">
+              <div class="ci-icon">📸</div>
+              <div class="ci-text">
+                <strong>Instagram</strong>
+                <span>@womantech_fci</span>
+              </div>
+            </a>
+            <div class="contact-item">
+              <div class="ci-icon">🏫</div>
+              <div class="ci-text">
+                <strong>Instituição</strong>
+                <span>Faculdade de Computação e Informática</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="highlight-card" style="border-radius: 18px; padding: 24px;">
+            <p style="font-size: 14px; margin-bottom: 0;">
+              ⚡ <strong style="color: var(--white);">Resposta rápida:</strong>
+              Costumamos responder em até 48 horas nos dias úteis.
+              Para atualizações em tempo real sobre novas edições, siga o <strong style="color: var(--white);">@womantech_fci</strong> no Instagram.
+            </p>
+          </div>
+        </div>
+
+        <!-- FORMULÁRIO -->
+        <div class="reveal d2">
+          <div class="contact-form-wrap">
+            <form id="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="nome">Seu nome</label>
+                  <input type="text" id="nome" name="nome" placeholder="Como você se chama?" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">E-mail</label>
+                  <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="assunto">Assunto</label>
+                <select id="assunto" name="assunto" required>
+                  <option value="" disabled selected>Selecione o motivo do contato</option>
+                  <option value="inscricao">Quero participar das oficinas</option>
+                  <option value="informacoes">Informações sobre o programa</option>
+                  <option value="parceria">Proposta de parceria</option>
+                  <option value="voluntaria">Quero ser voluntária</option>
+                  <option value="imprensa">Imprensa / Divulgação</option>
+                  <option value="outro">Outro assunto</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Conta mais sobre você e o que está buscando..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                ✦ Enviar mensagem
+              </button>
+            </form>
+
+            <div class="form-success">
+              <span class="success-icon">🎉</span>
+              <h3>Mensagem enviada!</h3>
+              <p>Obrigada pelo contato! Responderemos em breve pelo e-mail informado. Enquanto isso, siga a gente no Instagram <strong>@womantech_fci</strong>.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta-section" style="background: var(--bg-2); border-top: 1px solid var(--glass-border);">
+      <div class="section-tag reveal">Redes sociais</div>
+      <h2 class="reveal">Acompanhe a <span class="gradient-text">WomanTech</span></h2>
+      <p class="reveal">
+        Siga o <strong>@womantech_fci</strong> no Instagram para ficar por dentro das novidades, novas edições e histórias de quem já participou.
+      </p>
+      <div class="cta-btns reveal">
+        <a href="https://instagram.com/womantech_fci" target="_blank" rel="noopener" class="btn btn-primary">📸 Seguir no Instagram</a>
+        <a href="mailto:womantech.fci@gmail.com" class="btn btn-secondary">✉️ Enviar e-mail</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo-wrap">
+          <img src="imagens/logo.png" alt="WomanTech">
+          <span class="logo-text">WomanTech</span>
+        </div>
+        <p>Programa de extensão da Faculdade de Computação e Informática que inspira e capacita mulheres para o universo da tecnologia.</p>
+        <div class="social-row">
+          <a href="https://instagram.com/womantech_fci" target="_blank" rel="noopener" class="social-btn" title="Instagram">📸</a>
+          <a href="mailto:womantech.fci@gmail.com" class="social-btn" title="E-mail">✉️</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Páginas</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre o Projeto</a></li>
+          <li><a href="oficinas.html">Oficinas</a></li>
+          <li><a href="equipe.html">Nossa Equipe</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="mailto:womantech.fci@gmail.com">womantech.fci@gmail.com</a></li>
+          <li><a href="https://instagram.com/womantech_fci" target="_blank" rel="noopener">@womantech_fci</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 WomanTech — Aprender. Criar. Conectar. Transformar.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
